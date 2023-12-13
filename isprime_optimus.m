@@ -1,6 +1,6 @@
 function is_prime = isprime_optimus(u) % u : integer vector sorted in ascending order
 %
-% Author and copyright : nicolas (dot) douillet (at) free (dot) fr
+% Author and copyright : nicolas (dot) douillet (at) free (dot) fr, 2023.
 % This code is related to a submitted publication and protected as so.
 
 
