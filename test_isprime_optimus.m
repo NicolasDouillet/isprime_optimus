@@ -13,7 +13,7 @@ for k = 1:n
     p = isprime(1:2^k);
     isprime_cpu(1,k) = toc;
     
-    % My isprime optimus function (using isprime, but faster for high integer values thanks to an optimal sampling)
+    % My isprime optimus function (using isprime, but faster for high integer values thanks to an 'Christmas eve prime squares' expression optimal sampling)
     tic
     q = isprime_optimus(1:2^k);
     isprime_optimus_cpu(1,k) = toc;
