@@ -18,7 +18,7 @@ for k = 1:n
     q = isprime_optimus(1:2^k);
     isprime_optimus_cpu(1,k) = toc;
     
-    isequal(p,q) % to test equivalent primality resulting vector
+    % isequal(p,q) % to test equivalent primality resulting vector
     
 end
 

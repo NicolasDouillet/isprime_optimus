@@ -1,6 +1,23 @@
-function is_prime = isprime_optimus(u) % u : integer vector sorted in ascending order
+function is_prime = isprime_optimus(u)
+% isprime_optimus : function to fast perform primality test.
 %
-% Author and copyright : nicolas (dot) douillet (at) free (dot) fr, 2023.
+% Author, copyright, and support : nicolas (dot) douillet (at) free (dot) fr, 2023.
+%
+%
+% Input
+%
+% - u : integer vector sorted in ascending order.
+% 
+%
+% Output
+%
+% - is_prime : logical vector, the uinput u vector bitwise primality test resulting vector.
+%              size(is_prime) = size(u).
+%
+%
+% See also
+%
+% ISPRIME, PRIMES, FACTOR.
 
 
 is_prime = false(size(u)); % default
