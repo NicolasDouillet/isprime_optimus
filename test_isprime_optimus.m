@@ -30,6 +30,10 @@ semilogx(2.^(1:n),isprime_optimus_cpu,'Color',[0 0 1],'Linewidth',2), hold on;
 semilogx(2.^(1:n),isprime_optimus_cpu,'b+','Linewidth',2), hold on;
 
 set(gcf,'Color',[1 1 1]);
+set(gca,'FontSize',16);
+% xlabel('Valeur maximum du vecteurs d''entiers à tester ','FontSize',16);
+% ylabel('Temps CPU (s)','FontSize',16);
+% legend('Fonction native isprime de Matlab(r) ','','Fonction isprime optimus','','Location','northwest','FontSize',16);
 xlabel('Maximum integer value of the vector to test primality','FontSize',16);
 ylabel('CPU time (s)','FontSize',16);
 legend('Matlab(r) stock isprime function','','isprime optimus function','','Location','northwest','FontSize',16);
